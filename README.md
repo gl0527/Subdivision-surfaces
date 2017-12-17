@@ -1,5 +1,21 @@
+# Introduction
+This repository contains the solution for my standalone project in the subject 
+"3D Computer Geometry and Shape Reconstruction" at Budapest University of 
+Technology and Economics. The standalone project was about subdivision surfaces, 
+I had to implement Doo-Sabin, Catmull-Clark and Mid-Edge methods with the help 
+of Peter Salvi's (one of the tutor of the mentioned subject) framework.
+
 # Usage
 
+Pressing 'd' runs the Doo-Sabin algorithm on the loaded mesh.
+Pressing 'c' runs the Catmull-Clark algorithm on the loaded mesh.
+Pressing 'k' runs the Mid-Edge algorithm on the loaded mesh.
+Pressing 'w' switches on/off the wireframe rendering of the mesh.
+Pressing 'i' renders the isophotes texture on the loaded mesh.
+Pressing 'm' renders the loaded mesh with mean coloring.
+Pressing 'p' renders the loaded mesh with plain coloring.
+Pressing 's' displays the loaded mesh with solid filling.
+Pressing 'f' fairs the loaded mesh.
 Pressing `h` displays a help window that contains all the necessary information.
 If you want to use this as a base for your own project, examine the source code
 and read the documentation of the various libraries (see "Dependencies" below).
